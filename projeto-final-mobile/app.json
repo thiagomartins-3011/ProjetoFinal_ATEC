@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "projeto-final-mobile",
+    "slug": "projeto-final-mobile",
+    "scheme": "projeto-final-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.soundstore.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "webClientId": "606144369056-rj1pvvqnlp51c41p921qatl2nplahp6e.apps.googleusercontent.com",
+          "iosUrlScheme": "com.googleusercontent.apps.606144369056-rj1pvvqnlp51c41p921qatl2nplahp6e"
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}
