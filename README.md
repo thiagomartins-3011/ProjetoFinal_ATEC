@@ -77,16 +77,44 @@ Projeto Final/
 
 ### 1. Base de Dados
 
-Cria a base de dados `ProjetoFinal_ATEC` no SQL Server e executa os scripts de criação de tabelas.
+Abre o SQL Server Management Studio e executa o ficheiro `bd_projetofinal.sql` que está na raiz do projeto. Esse script cria a base de dados `ProjetoFinal_ATEC` e todas as tabelas necessárias.
 
-A connection string está em `projeto-final-backend/appsettings.json`:
+### 2. Backend
+
+**2.1 — Configurar o ficheiro de ambiente**
+
+Copia o ficheiro de exemplo e preenche com os teus dados:
+
+```
+projeto-final-backend/appsettings.example.json  →  projeto-final-backend/appsettings.json
+```
+
+Valores que tens de preencher no `appsettings.json`:
+
 ```json
 "ConnectionStrings": {
   "DefaultConnection": "Server=.\\sqlexpress;Database=ProjetoFinal_ATEC;Trusted_Connection=True;TrustServerCertificate=True;"
+},
+"Jwt": {
+  "Key": "uma chave secreta com pelo menos 32 caracteres"
+},
+"Email": {
+  "Smtp": "smtp.gmail.com",
+  "Porta": 587,
+  "Endereco": "o teu email Gmail",
+  "Password": "a tua App Password do Gmail"
+},
+"Authentication": {
+  "Google": {
+    "ClientId": "o teu Google Client ID",
+    "ClientSecret": "o teu Google Client Secret"
+  }
 }
 ```
 
-### 2. Backend
+> A App Password do Gmail é gerada em: Conta Google → Segurança → Verificação em dois passos → Palavras-passe de aplicações.
+
+**2.2 — Iniciar a API**
 
 ```bash
 cd projeto-final-backend
@@ -107,11 +135,22 @@ O site fica disponível em `http://localhost:5173`.
 
 ### 4. App Móvel
 
+**4.1 — Endereço da API**
+
+O ficheiro `projeto-final-mobile/src/config.js` define o endereço da API:
+
+- **Emulador Android** (padrão): `http://10.0.2.2:5074` — o `10.0.2.2` é o endereço do computador visto de dentro do emulador
+- **Dispositivo físico**: substitui pelo IP local do teu computador (ex: `http://192.168.1.X:5074`)
+
+**4.2 — Iniciar a app**
+
 ```bash
 cd projeto-final-mobile
 npm install
 npx expo run:android
 ```
+
+Necessita do Android Studio instalado com um emulador configurado.
 
 > Para notificações push é necessário dispositivo físico. O emulador não suporta o serviço FCM da Google.
 
