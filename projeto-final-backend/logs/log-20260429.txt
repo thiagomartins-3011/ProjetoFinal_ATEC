@@ -1,0 +1,112 @@
+[2026-04-29 20:37:17 INF] A iniciar a aplicação SoundStore...
+[2026-04-29 20:37:18 INF] Aplicação SoundStore iniciada com sucesso.
+[2026-04-29 20:37:18 INF] User profile is available. Using 'C:\Users\Thiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2026-04-29 20:37:18 INF] Now listening on: https://localhost:7008
+[2026-04-29 20:37:18 INF] Now listening on: http://localhost:5074
+[2026-04-29 20:37:18 INF] Application started. Press Ctrl+C to shut down.
+[2026-04-29 20:37:18 INF] Hosting environment: Development
+[2026-04-29 20:37:18 INF] Content root path: C:\Users\Thiag\Projeto Final\projeto-final-backend
+[2026-04-29 20:37:19 INF] Request starting HTTP/2 GET https://localhost:7008/swagger - null null
+[2026-04-29 20:37:19 INF] Request finished HTTP/2 GET https://localhost:7008/swagger - 301 0 null 116.2204ms
+[2026-04-29 20:37:19 INF] Request starting HTTP/2 GET https://localhost:7008/swagger/index.html - null null
+[2026-04-29 20:37:19 INF] Request finished HTTP/2 GET https://localhost:7008/swagger/index.html - 200 null text/html;charset=utf-8 43.3918ms
+[2026-04-29 20:37:19 INF] Request starting HTTP/2 GET https://localhost:7008/_vs/browserLink - null null
+[2026-04-29 20:37:19 INF] Request starting HTTP/2 GET https://localhost:7008/_framework/aspnetcore-browser-refresh.js - null null
+[2026-04-29 20:37:19 INF] Request finished HTTP/2 GET https://localhost:7008/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 13.5128ms
+[2026-04-29 20:37:19 INF] Request finished HTTP/2 GET https://localhost:7008/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.6429ms
+[2026-04-29 20:37:19 INF] Request starting HTTP/2 GET https://localhost:7008/swagger/v1/swagger.json - null null
+[2026-04-29 20:37:19 INF] Request finished HTTP/2 GET https://localhost:7008/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.4049ms
+[2026-04-29 20:37:24 INF] Request starting HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:37:24 INF] Request starting HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:37:24 INF] CORS policy execution successful.
+[2026-04-29 20:37:24 INF] CORS policy execution successful.
+[2026-04-29 20:37:24 INF] Request finished HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - 204 null null 7.5591ms
+[2026-04-29 20:37:24 INF] Request finished HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - 204 null null 7.5994ms
+[2026-04-29 20:37:24 INF] Request starting HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:37:24 INF] Request starting HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:37:24 INF] CORS policy execution successful.
+[2026-04-29 20:37:24 INF] CORS policy execution successful.
+[2026-04-29 20:37:24 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:37:24 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:37:24 INF] Route matched with {action = "GetLogs", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLogs(Int32) on controller ProjetoFinalBackend.Controllers.LogsController (ProjetoFinalBackend).
+[2026-04-29 20:37:24 INF] Route matched with {action = "GetLogs", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLogs(Int32) on controller ProjetoFinalBackend.Controllers.LogsController (ProjetoFinalBackend).
+[2026-04-29 20:37:24 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`3[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:24 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`3[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:24 INF] Executed action ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend) in 39.5278ms
+[2026-04-29 20:37:24 INF] Executed action ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend) in 38.4506ms
+[2026-04-29 20:37:24 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:37:24 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:37:24 INF] Request finished HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - 200 null application/json; charset=utf-8 153.7348ms
+[2026-04-29 20:37:24 INF] Request finished HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - 200 null application/json; charset=utf-8 154.476ms
+[2026-04-29 20:37:30 INF] Request starting HTTP/2 GET https://localhost:7008/api/produtos - null null
+[2026-04-29 20:37:30 INF] Request starting HTTP/2 GET https://localhost:7008/api/produtos?emPromocao=true - null null
+[2026-04-29 20:37:30 INF] CORS policy execution successful.
+[2026-04-29 20:37:30 INF] CORS policy execution successful.
+[2026-04-29 20:37:30 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Route matched with {action = "GetProdutos", controller = "Produtos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdutos(System.Nullable`1[System.Int32], Boolean, System.Nullable`1[System.Boolean]) on controller ProjetoFinalBackend.Controllers.ProdutosController (ProjetoFinalBackend).
+[2026-04-29 20:37:30 INF] Route matched with {action = "GetProdutos", controller = "Produtos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdutos(System.Nullable`1[System.Int32], Boolean, System.Nullable`1[System.Boolean]) on controller ProjetoFinalBackend.Controllers.ProdutosController (ProjetoFinalBackend).
+[2026-04-29 20:37:30 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:30 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:30 INF] Executed action ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend) in 208.3955ms
+[2026-04-29 20:37:30 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Executed action ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend) in 211.0851ms
+[2026-04-29 20:37:30 INF] Request finished HTTP/2 GET https://localhost:7008/api/produtos?emPromocao=true - 200 null application/json; charset=utf-8 221.4779ms
+[2026-04-29 20:37:30 INF] Request starting HTTP/2 GET https://localhost:7008/api/produtos - null null
+[2026-04-29 20:37:30 INF] Request starting HTTP/2 GET https://localhost:7008/api/produtos - null null
+[2026-04-29 20:37:30 INF] Request starting HTTP/2 GET https://localhost:7008/api/produtos - null null
+[2026-04-29 20:37:30 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Request starting HTTP/2 GET https://localhost:7008/api/produtos?emPromocao=true - null null
+[2026-04-29 20:37:30 INF] CORS policy execution successful.
+[2026-04-29 20:37:30 INF] CORS policy execution successful.
+[2026-04-29 20:37:30 INF] CORS policy execution successful.
+[2026-04-29 20:37:30 INF] Request finished HTTP/2 GET https://localhost:7008/api/produtos - 200 null application/json; charset=utf-8 236.4204ms
+[2026-04-29 20:37:30 INF] CORS policy execution successful.
+[2026-04-29 20:37:30 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Route matched with {action = "GetProdutos", controller = "Produtos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdutos(System.Nullable`1[System.Int32], Boolean, System.Nullable`1[System.Boolean]) on controller ProjetoFinalBackend.Controllers.ProdutosController (ProjetoFinalBackend).
+[2026-04-29 20:37:30 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Route matched with {action = "GetProdutos", controller = "Produtos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdutos(System.Nullable`1[System.Int32], Boolean, System.Nullable`1[System.Boolean]) on controller ProjetoFinalBackend.Controllers.ProdutosController (ProjetoFinalBackend).
+[2026-04-29 20:37:30 INF] Route matched with {action = "GetProdutos", controller = "Produtos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdutos(System.Nullable`1[System.Int32], Boolean, System.Nullable`1[System.Boolean]) on controller ProjetoFinalBackend.Controllers.ProdutosController (ProjetoFinalBackend).
+[2026-04-29 20:37:30 INF] Route matched with {action = "GetProdutos", controller = "Produtos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdutos(System.Nullable`1[System.Int32], Boolean, System.Nullable`1[System.Boolean]) on controller ProjetoFinalBackend.Controllers.ProdutosController (ProjetoFinalBackend).
+[2026-04-29 20:37:30 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:30 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:30 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:30 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:37:30 INF] Executed action ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend) in 10.6383ms
+[2026-04-29 20:37:30 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Request finished HTTP/2 GET https://localhost:7008/api/produtos?emPromocao=true - 200 null application/json; charset=utf-8 43.2729ms
+[2026-04-29 20:37:30 INF] Executed action ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend) in 18.7955ms
+[2026-04-29 20:37:30 INF] Executed action ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend) in 22.0971ms
+[2026-04-29 20:37:30 INF] Executed action ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend) in 16.9824ms
+[2026-04-29 20:37:30 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.ProdutosController.GetProdutos (ProjetoFinalBackend)'
+[2026-04-29 20:37:30 INF] Request finished HTTP/2 GET https://localhost:7008/api/produtos - 200 null application/json; charset=utf-8 50.8264ms
+[2026-04-29 20:37:30 INF] Request finished HTTP/2 GET https://localhost:7008/api/produtos - 200 null application/json; charset=utf-8 50.825ms
+[2026-04-29 20:37:30 INF] Request finished HTTP/2 GET https://localhost:7008/api/produtos - 200 null application/json; charset=utf-8 50.4843ms
+[2026-04-29 20:41:50 INF] Request starting HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:41:50 INF] Request starting HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:41:50 INF] CORS policy execution successful.
+[2026-04-29 20:41:50 INF] CORS policy execution successful.
+[2026-04-29 20:41:50 INF] Request finished HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - 204 null null 11.9393ms
+[2026-04-29 20:41:50 INF] Request finished HTTP/2 OPTIONS https://localhost:7008/api/logs?linhas=300 - 204 null null 8.2111ms
+[2026-04-29 20:41:50 INF] Request starting HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:41:50 INF] Request starting HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - null null
+[2026-04-29 20:41:50 INF] CORS policy execution successful.
+[2026-04-29 20:41:50 INF] CORS policy execution successful.
+[2026-04-29 20:41:50 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:41:50 INF] Executing endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:41:50 INF] Route matched with {action = "GetLogs", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLogs(Int32) on controller ProjetoFinalBackend.Controllers.LogsController (ProjetoFinalBackend).
+[2026-04-29 20:41:50 INF] Route matched with {action = "GetLogs", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLogs(Int32) on controller ProjetoFinalBackend.Controllers.LogsController (ProjetoFinalBackend).
+[2026-04-29 20:41:50 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`3[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:41:50 INF] Executed action ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend) in 17.4864ms
+[2026-04-29 20:41:50 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:41:50 INF] Request finished HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - 200 null application/json; charset=utf-8 27.71ms
+[2026-04-29 20:41:50 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`3[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-04-29 20:41:50 INF] Executed action ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend) in 28.7624ms
+[2026-04-29 20:41:50 INF] Executed endpoint 'ProjetoFinalBackend.Controllers.LogsController.GetLogs (ProjetoFinalBackend)'
+[2026-04-29 20:41:50 INF] Request finished HTTP/2 GET https://localhost:7008/api/logs?linhas=300 - 200 null application/json; charset=utf-8 40.2009ms
+[2026-04-29 20:46:02 INF] A iniciar a aplicação SoundStore...
+[2026-04-29 20:46:03 INF] Aplicação SoundStore iniciada com sucesso.

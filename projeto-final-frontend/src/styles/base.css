@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --yellow: #FFB800;
+  --yellow-dark: #E6A200;
+  --yellow-light: #FFD04D;
+  --black: #1A1A1A;
+  --gray-dark: #333333;
+  --gray-mid: #666666;
+  --gray-light: #F5F5F5;
+  --gray-border: #E0E0E0;
+  --white: #FFFFFF;
+  --danger: #DC2626;
+  --success: #16A34A;
+  --text-primary: #1A1A1A;
+  --text-secondary: #666666;
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --bg-page: #F5F5F5;
+  --surface-hover: #e8e8e8;
+}
+
+[data-theme="dark"] {
+  --black: #F0F0F0;
+  --gray-dark: #CCCCCC;
+  --gray-mid: #888888;
+  --gray-light: #1A1A1A;
+  --gray-border: #2E2E2E;
+  --white: #1E1E1E;
+  --text-primary: #F0F0F0;
+  --text-secondary: #888888;
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
+  --bg-page: #111111;
+  --surface-hover: #2a2a2a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg-page);
+  min-height: 100vh;
+  color: var(--text-primary);
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.logo-accent {
+  color: var(--yellow-dark);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.app-footer {
+  margin-top: auto;
+  border-top: 1px solid var(--gray-border);
+  background: var(--white);
+  padding: 20px 24px;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: var(--yellow-dark);
+}
+
+.footer-sep {
+  color: var(--gray-border);
+  font-size: 0.875rem;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}

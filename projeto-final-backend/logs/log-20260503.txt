@@ -1,0 +1,32 @@
+[2026-05-03 13:44:47 INF] A iniciar a aplicação SoundStore...
+[2026-05-03 13:44:48 INF] Aplicação SoundStore iniciada com sucesso.
+[2026-05-03 13:52:37 INF] A iniciar a aplicação SoundStore...
+[2026-05-03 13:52:37 INF] Aplicação SoundStore iniciada com sucesso.
+[2026-05-03 13:52:49 INF] A iniciar a aplicação SoundStore...
+[2026-05-03 13:52:49 INF] Aplicação SoundStore iniciada com sucesso.
+[2026-05-03 13:52:55 INF] HTTP OPTIONS /api/carrinho responded 204 in 1.4326 ms
+[2026-05-03 13:52:55 INF] HTTP OPTIONS /api/logs responded 204 in 1.4286 ms
+[2026-05-03 13:52:55 INF] HTTP GET /api/logs responded 200 in 155.8864 ms
+[2026-05-03 13:52:55 INF] HTTP GET /api/logs responded 200 in 10.3620 ms
+[2026-05-03 13:52:55 INF] HTTP GET /api/carrinho responded 200 in 242.8879 ms
+[2026-05-03 13:52:55 INF] HTTP GET /api/categorias responded 200 in 289.4178 ms
+[2026-05-03 13:52:55 INF] HTTP GET /api/carrinho responded 200 in 2.0870 ms
+[2026-05-03 13:52:55 INF] HTTP GET /api/categorias responded 200 in 1.0424 ms
+[2026-05-03 13:53:02 INF] HTTP OPTIONS /api/logs responded 204 in 0.0616 ms
+[2026-05-03 13:53:02 INF] HTTP GET /api/logs responded 200 in 8.7535 ms
+[2026-05-03 13:53:03 INF] HTTP GET /api/logs responded 200 in 10.2329 ms
+[2026-05-03 13:53:04 INF] HTTP GET /api/logs responded 200 in 9.8689 ms
+[2026-05-03 13:53:05 INF] HTTP GET /api/logs responded 200 in 8.8578 ms
+[2026-05-03 13:53:06 INF] HTTP GET /api/logs responded 200 in 8.7347 ms
+[2026-05-03 13:53:10 INF] HTTP GET /api/produtos responded 200 in 19.4460 ms
+[2026-05-03 13:53:10 INF] HTTP GET /api/produtos responded 200 in 18.8326 ms
+[2026-05-03 13:53:10 INF] HTTP GET /api/produtos responded 200 in 27.9559 ms
+[2026-05-03 13:53:10 INF] HTTP GET /api/produtos responded 200 in 27.8206 ms
+[2026-05-03 13:53:10 INF] HTTP GET /api/produtos responded 200 in 30.0660 ms
+[2026-05-03 13:53:10 INF] HTTP GET /api/produtos responded 200 in 39.9456 ms
+[2026-05-03 13:57:27 INF] HTTP GET /api/produtos responded 200 in 95.7745 ms
+[2026-05-03 13:57:27 INF] HTTP GET /api/produtos responded 200 in 7.0217 ms
+[2026-05-03 13:57:27 INF] HTTP GET /api/produtos responded 200 in 61.7365 ms
+[2026-05-03 13:57:27 INF] HTTP GET /api/produtos responded 200 in 96.9156 ms
+[2026-05-03 13:57:27 INF] HTTP GET /api/produtos responded 200 in 9.2571 ms
+[2026-05-03 13:57:27 INF] HTTP GET /api/produtos responded 200 in 47.6701 ms

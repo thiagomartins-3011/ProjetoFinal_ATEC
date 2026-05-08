@@ -1,0 +1,41 @@
+.input-group {
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gray-mid);
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 11px 14px;
+  background: var(--white);
+  border: 1.5px solid var(--gray-border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.93rem;
+  outline: none;
+  transition: all 0.18s ease;
+}
+
+.input-field::placeholder {
+  color: #BBBBBB;
+}
+
+.input-field:focus {
+  border-color: var(--yellow);
+  box-shadow: 0 0 0 3px rgba(255, 184, 0, 0.15);
+}
+
+.input-field option {
+  background: var(--white);
+  color: var(--text-primary);
+}

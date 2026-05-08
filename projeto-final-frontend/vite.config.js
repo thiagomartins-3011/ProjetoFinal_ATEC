@@ -1,0 +1,14 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    host: true, // permite conexões externas
+    port: 5173,
+    strictPort: true,
+    allowedHosts: [
+      'unelusive-tremulously-walter.ngrok-free.dev'
+    ]
+  }
+});

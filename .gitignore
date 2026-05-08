@@ -1,0 +1,36 @@
+# ───────────────────────────────
+# .NET / Backend
+# ───────────────────────────────
+projeto-final-backend/bin/
+projeto-final-backend/obj/
+projeto-final-backend/.vs/
+projeto-final-backend/*.user
+projeto-final-backend/appsettings.json
+projeto-final-backend/appsettings.Development.json
+
+# ───────────────────────────────
+# Node / Frontend Web
+# ───────────────────────────────
+projeto-final-frontend/node_modules/
+projeto-final-frontend/dist/
+projeto-final-frontend/dist-ssr/
+projeto-final-frontend/.env*.local
+
+# ───────────────────────────────
+# Node / Mobile
+# ───────────────────────────────
+projeto-final-mobile/node_modules/
+projeto-final-mobile/.expo/
+projeto-final-mobile/dist/
+projeto-final-mobile/web-build/
+projeto-final-mobile/.env*.local
+
+# ───────────────────────────────
+# Raiz
+# ───────────────────────────────
+node_modules/
+.claude/
+.vscode/
+.DS_Store
+*.log
+google-signin-research/

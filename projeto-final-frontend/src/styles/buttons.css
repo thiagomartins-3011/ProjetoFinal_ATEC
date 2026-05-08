@@ -1,0 +1,93 @@
+.btn {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--yellow);
+  color: #1A1A1A;
+  width: 100%;
+  justify-content: center;
+  padding: 13px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.btn-primary:hover {
+  background: var(--yellow-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 184, 0, 0.4);
+}
+
+.btn-secondary {
+  background: var(--white);
+  color: var(--black);
+  border: 1.5px solid var(--gray-border);
+}
+
+.btn-secondary:hover {
+  border-color: var(--yellow);
+  background: var(--gray-light);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--gray-dark);
+  padding: 8px 14px;
+  font-size: 0.88rem;
+}
+
+.btn-ghost:hover {
+  background: var(--gray-light);
+  color: var(--black);
+}
+
+.btn-danger {
+  background: rgba(220, 38, 38, 0.08);
+  color: var(--danger);
+  border: 1.5px solid rgba(220, 38, 38, 0.25);
+  font-size: 0.82rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-danger:hover {
+  background: rgba(220, 38, 38, 0.15);
+}
+
+.btn-edit {
+  background: rgba(255, 184, 0, 0.1);
+  color: var(--yellow-dark);
+  border: 1.5px solid rgba(255, 184, 0, 0.3);
+  font-size: 0.82rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-edit:hover {
+  background: rgba(255, 184, 0, 0.2);
+}
+
+.btn-logout {
+  background: transparent;
+  color: var(--danger);
+  border: 1.5px solid rgba(220, 38, 38, 0.3);
+  font-size: 0.88rem;
+}
+
+.btn-logout:hover {
+  background: rgba(220, 38, 38, 0.06);
+}
